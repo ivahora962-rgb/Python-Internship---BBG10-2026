@@ -12,10 +12,10 @@ print("1. Products above 100:", expensive_products)
 
 # 2. Find student with highest marks without using max() directly
 students = [
-    {"name": "Riya", "marks": 88},
-    {"name": "Aman", "marks": 95},
-    {"name": "Sara", "marks": 79},
-    {"name": "Kabir", "marks": 91}
+    {"name": "Aura", "marks": 88},
+    {"name": "Munna", "marks": 95},
+    {"name": "Vijay", "marks": 79},
+    {"name": "Kabirbapu", "marks": 91}
 ]
 topper = students[0]
 for s in students:
@@ -50,11 +50,11 @@ print("5. Combined Settings:", final_settings)
 
 # 6. Sort employees by salary descending and print top 3
 employees = {
-    "Riya": 45000,
-    "Aman": 72000,
-    "Sara": 58000,
+    "Aura+": 45000,
+    "Munna": 72000,
+    "Saria": 58000,
     "Kabir": 85000,
-    "Zoya": 64000
+    "Zara": 64000
 }
 sorted_employees = sorted(employees.items(), key=lambda x: x[1], reverse=True)
 top_3 = dict(sorted_employees[:3])
