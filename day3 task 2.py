@@ -22,7 +22,7 @@ for lat, lon in locations:
     print(f"   Latitude: {lat}, Longitude: {lon}")
     
 # 4. Set differences between newsletter subscribers and purchasers
-subscribers = {"riya@gmail.com", "aman@gmail.com", "sara@gmail.com", "kabir@gmail.com"}
+subscribers = {"RamilaOnTop@gmail.com", "DonwtoEarth@gmail.com", "Earthtodown@gmail.com", "kabirbapu@gmail.com"}
 purchasers = {"aman@gmail.com", "kabir@gmail.com", "zoya@gmail.com"}
 
 never_purchased = subscribers.difference(purchasers)
