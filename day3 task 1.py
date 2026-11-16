@@ -5,7 +5,7 @@ above_avg = [p for p in prices if p > avg_price]
 print("1. Average:", avg_price, "| Above average:", above_avg)
 
 # 2. Convert full names to title case using list comprehension
-names = ["riya sharma", "aman gupta", "rumana vahora", "sara khan"]
+names = ["Ajay sharma", "aman bapu", "bapu lala ", "sariya khan"]
 title_names = [name.title() for name in names]
 print("2. Title Case Names:", title_names)
 
@@ -27,7 +27,7 @@ transpose = [[row[i] for row in matrix] for i in range(len(matrix[0]))]
 print("4. Transpose Matrix:", transpose)
 
 # 5. Sort list of tuples by marks (topper first) using key parameter
-students = [("Riya", 88), ("Aman", 95), ("Sara", 72), ("Zoya", 91)]
+students = [("Ajay", 88), ("Bapu", 95), ("Saria", 72), ("Zara", 91)]
 sorted_students = sorted(students, key=lambda x: x[1], reverse=True)
 print("5. Topper first:", sorted_students)
 
@@ -44,7 +44,7 @@ for n in nums:
 print("6. Second largest:", second_largest)
 
 # 7. Print employee names with salaries using zip()
-employees = ["Riya", "Aman", "Sara", "Kabir"]
+employees = ["Ajay", "Bapu", "Saria", "Kabir singh"]
 salaries = [35000, 42000, 38000, 45000]
 print("7. Employee Salaries:")
 for emp, sal in zip(employees, salaries):
