@@ -5,7 +5,7 @@ above_avg = [p for p in prices if p > avg_price]
 print("1. Average:", avg_price, "| Above average:", above_avg)
 
 # 2. Convert full names to title case using list comprehension
-names = ["riya sharma", "aman gupta", "rumana vahora", "sara khan"]
+names = ["riya chora", "aman vijay", "arkan vahora", "abdul khan"]
 title_names = [name.title() for name in names]
 print("2. Title Case Names:", title_names)
 

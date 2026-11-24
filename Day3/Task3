@@ -12,10 +12,10 @@ print("1. Products above 100:", expensive_products)
 
 # 2. Find student with highest marks without using max() directly
 students = [
-    {"name": "Riya", "marks": 88},
-    {"name": "Aman", "marks": 95},
-    {"name": "Sara", "marks": 79},
-    {"name": "Kabir", "marks": 91}
+    {"name": "Riyan", "marks": 88},
+    {"name": "Amana", "marks": 95},
+    {"name": "Saba", "marks": 79},
+    {"name": "Kabira", "marks": 91}
 ]
 topper = students[0]
 for s in students:
